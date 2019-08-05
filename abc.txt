@@ -1,2 +1,6 @@
-ganesh 
-This is Firat File .
+   ***Wel Come To Github***
+ 
+I am ganesh and start leraning to github
+and there commands.
+
+-----------------------------------
