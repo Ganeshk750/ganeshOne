@@ -165,14 +165,18 @@ ul.socialicons{
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 30px;
   text-decoration: none;
+  margin-right: 35px;
 }
 
-.tabs li.active{
+a.tab-profile.active{
   background: url(..//img/tab-hover.png) no-repeat;
+  color: #cf455c;
 }
-.tabs li.active a {
+
+
+/* .tabs li.active a {
   color:#cf455c ;
-}
+} */
 
 .tabs li > a > i {
   font-size: 45px;
