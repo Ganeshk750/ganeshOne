@@ -94,5 +94,18 @@ body {
 
 /* Sharing Button */
 header{
-  position: relative;   
+  position: relative;  
+  overflow: visible;
+
+}
+
+span.socials-text{
+  position: absolute;
+  right: 0px;
+  color: white;
+  padding: 2px 9px;
+  font-size: 22px;
+  cursor: pointer;
+  top: 10px;
+  border-radius: 70px;
 }
