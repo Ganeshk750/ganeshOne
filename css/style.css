@@ -160,4 +160,31 @@ ul.socialicons{
   text-decoration: none;
 }
 
+.tabs li.active{
+  background: url(..//img/tab-hover.png) no-repeat;
+}
+.tabs li.active a {
+  color:#cf455c ;
+}
+
+.tabs li > a > i {
+  font-size: 45px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#logo{
+  float: left;
+  overflow: hidden;
+  margin-left: 10px;
+  display: none;
+}
+
+#logo h4 {
+  color: #555;
+  line-height: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-left: 7px;
+}
 
