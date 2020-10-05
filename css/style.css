@@ -2,6 +2,13 @@ body {
   background-image: url(..//img/bg-body.jpg);
 }
 
+#container{
+  margin: 0 auto;
+  width: 860px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
 #profile {
   background-color: #cf455c;
   background-image: url(../img/header-shadow.png);
