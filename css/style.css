@@ -168,8 +168,11 @@ ul.socialicons{
   margin-right: 35px;
 }
 
-a.tab-profile.active{
+.tabs li.active{
   background: url(..//img/tab-hover.png) no-repeat;
+  
+}
+.tabs li.active a{
   color: #cf455c;
 }
 
@@ -190,6 +193,12 @@ a.tab-profile.active i{
 }
 
 
+.tabs li{
+  float: left;
+  height: 116px;
+}
+
+
 /* .tabs li.active a {
   color:#cf455c ;
 } */
@@ -204,8 +213,9 @@ a.tab-profile.active i{
   float: left;
   overflow: hidden;
   margin-left: 10px;
-  display: none;
+  
 }
+/* display: none; */
 
 #logo h4 {
   color: #555;
