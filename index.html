@@ -1,384 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ganesh Portfolio</title>
     <!-- meyer-reset -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- Bootstrap cdn -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <section id="container">
-        <header>
-            <div id="logo">
-               <h2>GANESH KUMAR</h2> 
-               <h4>MEAN & JAVA DEVELOPRE</h4>
-            </div>
-            <!-- Social Icon -->
-            <div class="social-icons-container">
-                <span class="social-text">
-                    <button class="pulse-button">
-                       <i class="fa fa-share"></i> 
-                    </button>
-                </span>
-                <!-- Icon Popping -->
+      <header>
+        <div id="logo">
+          <h2>GANESH KUMAR</h2>
+          <h4>MEAN & JAVA DEVELOPRE</h4>
+        </div>
+        <!-- Social Icon -->
+        <div class="social-icons-container">
+          <span class="social-text">
+            <button class="pulse-button">
+              <i class="fa fa-share"></i>
+            </button>
+          </span>
+          <!-- Icon Popping -->
 
-                <ul class="socialicons">
-                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
-                </ul>
-            </div>
-        </header>
+          <ul class="socialicons">
+            <li>
+              <a href=""><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-whatsapp"></i></a>
+            </li>
+          </ul>
+        </div>
+      </header>
 
-        <section id="content">
-            <div id="profile">
-                <div class="about">
-                    <div class="photo-inner">
+      <section id="content">
+        <div id="profile">
+          <div class="about">
+            <div class="photo-inner">
+              <ul>
+                <li><img src="img/photo.jpg" alt="" /></li>
+                <!-- <li><img src="img/photo1.png" alt=""></li> -->
+              </ul>
+            </div>
+
+            <h1>GANESH KUMAR</h1>
+            <h3>MEAN & JAVA DEVELOPRE</h3>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              ipsa odit, mollitia magni nulla natus rerum perspiciatis deserunt!
+            </p>
+          </div>
+          <!-- Personal Info -->
+          <ul class="personal-info">
+            <li><label>Name</label><span>Ganesh Kumar</span></li>
+            <li><label>Birthday</label><span>April 15, 1993</span></li>
+            <li>
+              <label>Address</label><span>Kormangla Bangalore India</span>
+            </li>
+            <li>
+              <label>Email</label
+              ><span class="word-wrap">ganesh9ot@gmail.com</span>
+            </li>
+            <li><label>Phone</label><span>7814962552</span></li>
+            <li>
+              <label>Website</label
+              ><span class="word-wrap">www.github.com/Ganeshk750</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Nav Bar Start -->
+        <nav class="menu">
+          <ul class="tabs">
+            <li class="tmenu">
+              <a href="#profile" class="tab-profile">
+                <i><i class="fa fa-user"></i></i>
+                Profile</a
+              >
+            </li>
+            <li class="tmenu">
+              <a href="#resume">
+                <i><i class="fa fa-wpexplorer"></i></i>
+                Resume
+              </a>
+            </li>
+            <li class="tmenu">
+              <a href="#portfolio">
+                <i><i class="fa fa-eercast"></i></i>
+                Portfolio
+              </a>
+            </li>
+            <li class="tmenu">
+              <a href="#contact">
+                <i><i class="fa fa-telegram"></i></i>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Menu href section for resume portfolio and contact -->
+
+        <section id="resume">
+          <div class="timeline-section">
+            <div class="main-wrapper-resume">
+              <div class="carttitle-wrapper">
+                <div class="color-box">
+                  <button id="red-color" class="btn-style"></button>
+                  <button id="yellow-color" class="btn-style"></button>
+                  <button id="blue-color" class="btn-style"></button>
+                  <button id="green-color" class="btn-style"></button>
+                  <button id="setting-icon">
+                    <i class="fa fa-cog fa-spin"></i>
+                  </button>
+                </div>
+
+                <div class="container no-padding">
+                  <div class="row no-magrin">
+                    <div class="col-md-6 no-padding bg-color-left">
+                      <div class="left-name bg-color-1">
+                        <h2>
+                          GANESH
+                          <span class="text-color"> KUMAR</span>
+                        </h2>
+                        <h5>Full Stack Developer</h5>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Ducimus placeat porro quod aut soluta fugit
+                          accusamus harum fugiat, obcaecati assumenda?
+                        </p>
+                      </div>
+
+                      <div class="left-address">
                         <ul>
-                            <li><img src="img/photo.jpg" alt=""></li>
-                            <!-- <li><img src="img/photo1.png" alt=""></li> -->
+                          <li>
+                            <span class="text-color">Phone no</span>
+                            7814962552
+                          </li>
+                          <li>
+                            <span class="text-color">Address</span>
+                            Kormangla Bangalore India
+                          </li>
+                          <li>
+                            <span class="text-color">Email us</span>
+                            ganesh9ot@gmail.com
+                          </li>
                         </ul>
+                      </div>
+
+                      <div class="ex-heading">
+                        <h2>Experience</h2>
+                      </div>
+                      <div class="ex-box">
+                        <h2>2017-2018</h2>
+                        <h4>TRAINEE</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Doloribus dolores officiis voluptatem omnis,
+                          dolore illum?
+                        </p>
+                      </div>
+                      <div class="ex-box">
+                        <h2>2018-2020</h2>
+                        <h4>Software Engineer</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Doloribus dolores officiis voluptatem omnis,
+                          dolore illum?
+                        </p>
+                      </div>
+                      <div class="ex-box">
+                        <h2>2020-Current</h2>
+                        <h4>Associate Software Engineer</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing
+                          elit. Doloribus dolores officiis voluptatem omnis,
+                          dolore illum?
+                        </p>
+                      </div>
                     </div>
 
-                    <h1>GANESH KUMAR</h1>
-                    <h3>MEAN & JAVA DEVELOPRE</h3>
-                    <br>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa odit, mollitia magni nulla natus rerum perspiciatis deserunt!
-                    </p>
-                </div>
-                <!-- Personal Info -->
-                <ul class="personal-info">
-                    <li><label>Name</label><span>Ganesh Kumar</span></li>
-                    <li><label>Birthday</label><span>April 15, 1993</span></li>
-                    <li><label>Address</label><span>Kormangla Bangalore India</span></li>
-                    <li><label>Email</label><span class="word-wrap">ganesh9ot@gmail.com</span></li>
-                    <li><label>Phone</label><span>7814962552</span></li>
-                    <li><label>Website</label><span class="word-wrap">www.github.com/Ganeshk750</span></li>
-                </ul>
-            </div>
-          <!-- Nav Bar Start -->
-          <nav class="menu">
-                  <!-- <li> 
-                    <a href="#profile" class="tab-profile active tmenu">
-                      <i><i class="fa fa-user"></i></i>
-                      PROFILE
-                  </a>
-                   <a href="#resume" class="tmenu">
-                      <i><i class="fa fa-wpexplorer"></i></i>
-                      RESUME
-                  </a>
-                   
-                   <a href="#portfolio" class="tmenu">
-                      <i><i class="fa fa-eercast"></i></i>
-                      PORTFOLIO
-                  </a>
-                   
-                   <a href="#contact" class="tmenu">
-                      <i><i class="fa fa-telegram"></i></i>
-                      CONTACT
-                  </a>
-                </li> -->
+                    <div class="col-md-6 no-padding bg-color-right">
+                      <div class="top-skills">
+                        <div class="skill-name">
+                          <div class="ja">Java</div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
+                        <div class="skill-name">
+                          <div class="js">Js</div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
 
-              <ul class="tabs">
-                <li class="tmenu">
-                    <a href="#profile" class="tab-profile">
-                        <i><i class="fa fa-user"></i></i>
-                        Profile</a>
-                    </li>
-                <li class="tmenu">
-                    <a href="#resume">
-                        <i><i class="fa fa-wpexplorer"></i></i>
-                        Resume
-                    </a>
-                </li>
-                <li class="tmenu">
-                    <a href="#portfolio">
-                        <i><i class="fa fa-eercast"></i></i>
-                        Portfolio
-                    </a>
-                </li>
-                <li class="tmenu">
-                    <a href="#contact">
-                        <i><i class="fa fa-telegram"></i></i>
-                        Contact
-                    </a>
-                </li>
-            </ul>
-          </nav>
-           <!-- Menu href section for resume portfolio and contact -->
-        
-          <section id="resume">
-          
-          <div class="timeline-section">
-              <div class="main-wrapper-resume">
-                  <div class="carttitle-wrapper">
-                      <div class="color-box">
-                          <button id="red-color" class="btn-style"></button>
-                          <button id="yellow-color" class="btn-style"></button>
-                          <button id="blue-color" class="btn-style"></button>
-                          <button id="green-color" class="btn-style"></button>
-                          <button id="setting-icon">
-                              <i class="fa fa-cog fa-spin"></i>
-                          </button>
+                        <div class="skill-name">
+                          <div class="sql">SQL</div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
+                        <div class="skill-name">
+                          <div class="api">REST Api</div>
+                          <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
                       </div>
-                   
-                      <div class="container no-padding">
-                           <div class="row no-magrin">
-                               <div class="col-md-6 no-padding bg-color-left">
-                                   <div class="left-name bg-color-1">
-                                      <h2>GANESH 
-                                          <span class="text-color">
-                                          KUMAR</span>
-                                        </h2>
-                                        <h5>Full Stack Developer</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus placeat porro quod aut soluta fugit accusamus harum fugiat, obcaecati assumenda?
-                                        </p>
-                                   </div>
-                                   
-                                  <div class="left-address">
-                                    <ul>
-                                        <li><span class="text-color">Phone no</span>
-                                          7814962552
-                                        </li>
-                                        <li><span class="text-color">Address</span>
-                                          Kormangla Bangalore India
-                                        </li>
-                                        <li><span class="text-color">Email us</span>
-                                         ganesh9ot@gmail.com
-                                        </li>
-                                    </ul>  
-                                  </div>
 
-                                  <div class="ex-heading">
-                                      <h2>Experience</h2>
-                                  </div>
-                                  <div class="ex-box">
-                                      <h2>2017-2018</h2>
-                                      <h4>TRAINEE</h4>
-                                      <p>
-                                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolores officiis voluptatem omnis, dolore illum?
-                                      </p>
-                                  </div>
-                                  <div class="ex-box">
-                                      <h2>2018-2020</h2>
-                                      <h4>Software Engineer</h4>
-                                      <p>
-                                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolores officiis voluptatem omnis, dolore illum?
-                                      </p>
-                                  </div>
-                                  <div class="ex-box">
-                                      <h2>2020-Current</h2>
-                                      <h4>Associate Software Engineer</h4>
-                                      <p>
-                                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus dolores officiis voluptatem omnis, dolore illum?
-                                      </p>
-                                    </div>
-                               </div>
+                      <div class="right-skills">
+                        <div class="row no-margin">
+                          <div class="col-md-12 heading-skills no-padding">
+                            <h3>MY SKILLS</h3>
+                          </div>
+                        </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h3>Spring</h3>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
 
-                                <div class="col-md-6 no-padding bg-color-right">
-                                   
-                                    <div class="top-skills">
-                                        <div class="skill-name">
-                                            <div class="ja">Java</div>
-                                            <ul>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li> 
-                                            </ul>
-                                        </div>
-                                         <div class="skill-name">
-                                            <div class="js">Js</div>
-                                            <ul>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li> 
-                                            </ul>
-                                        </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h3>Spring JPA</h3>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
 
-                                         <div class="skill-name">
-                                            <div class="sql">SQL</div>
-                                            <ul>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li> 
-                                            </ul>
-                                        </div>
-                                         <div class="skill-name">
-                                            <div class="api">REST Api</div>
-                                            <ul>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li>
-                                               <li></li> 
-                                            </ul>
-                                        </div>
-                                    </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h3>MySql</h3>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
 
-                                    <div class="right-skills">
-                                        <div class="row no-margin">
-                                            <div class="col-md-12 heading-skills no-padding">
-                                                <h3>MY SKILLS</h3>
-                                            </div>
-                                        </div>
-                                         <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h3>Spring</h3>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                         
-                                          <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h3>Spring JPA</h3>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
+                        <div class="row no-margin mt-25">
+                          <div class="col-md-5 no-padding">
+                            <h3>REST Api</h3>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
 
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h4>HTML</h4>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h4>Bootstrap</h4>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h4>Angular 6</h4>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
+                        <div class="row no-margin">
+                          <div class="col-md-5 no-padding">
+                            <h4>Node.js</h4>
+                          </div>
+                          <div class="col-md-7 no-padding">
+                            <div
+                              class="progress bg-warning progress-bar-striped"
+                              role="progressbar"
+                              aria-valuenow="70"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                              style="width: 70%"
+                            ></div>
+                          </div>
+                        </div>
+                      </div>
 
-                                          <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h3>MySql</h3>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                       
-                                          <div class="row no-margin mt-25">
-                                            <div class="col-md-5 no-padding">
-                                                <h3>REST Api</h3>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
+                      <div class="row no-margin mt-25">
+                        <div class="clo-md-12 heading-skills no-padding">
+                          <h3>INTRESTS</h3>
+                        </div>
 
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-plane"></i>
+                            <br /><br />
+                            <h5>TRAVEL</h5>
+                          </div>
+                        </div>
 
-                                        <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h4>HTML</h4>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                        <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h4>Bootstrap</h4>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                        <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h4>Angular 6</h4>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                        <div class="row no-margin">
-                                            <div class="col-md-5 no-padding">
-                                                <h4>Node.js</h4>
-                                            </div>
-                                            <div class="col-md-7 no-padding">
-                                               <div class="progress bg-warning progress-bar-striped" 
-                                               role="progressbar" aria-valuenow="70" 
-                                               aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                               </div>
-                                            </div>
-                                        </div>
-                                        
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-headphones"></i>
+                            <br /><br />
+                            <h5>MUSIC</h5>
+                          </div>
+                        </div>
 
-                                    </div>
-                                    
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-file-video"></i>
+                            <br /><br />
+                            <h5>VIDEO</h5>
+                          </div>
+                        </div>
 
-                                </div>
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-bicycle"></i>
+                            <br /><br />
+                            <h5>CYCLING</h5>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-cutlery"></i>
+                            <br /><br />
+                            <h5>COOKING</h5>
+                          </div>
+                        </div>
+
+                        <div class="col-md-4 intetst-box">
+                          <div class="intetst-icons">
+                            <i class="fa fa-pied-piper-alt"></i>
+                            <br /><br />
+                            <h5>SPORTS</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                     <div class="education-right">
+                         <div class="row no-margin">
+                             <div class="col-md-12 heading-skills no-padding">
+                                 <div class="ex-box">
+                                     <h2>2012-2016</h2>
+                                     <h5>B.TECH</h5>
+                                     <p>Lorem ipsum dolor sit amet consectetur 
+                                         adipisicing elit. Deleniti, asperiores?</p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+
+                    <div class="address-qr-right">
+                       <div class="row no-margin">
+                           <div class="col-md-5 no-padding">
+                              <div class="qr-box">
+                                 <img src="img/qr.png" alt="">
+                              </div> 
                            </div>
-                      </div>
+                         <div class="col-md-7 no-padding">
+                             <div class="address-right-box">
+                                 <ul>
+                                     <li>
+                                         <i class="fa fa-phone-square"></i>
+                                          <p>7814962552</p>
+                                        </li>
+
+                                         <li>
+                                         <i class="fa fa-envelope-o"></i>
+                                          <p>www.ganesh-dbg.com</p>
+                                        </li>
+
+                                         <li>
+                                         <i class="fa fa-map-marker"></i>
+                                          <p>Bangalore India</p>
+                                        </li>
+                                 </ul>
+                             </div>
+                         </div>
+
+                       </div> 
+                    </div>
+
+
                   </div>
+                </div>
               </div>
-          </div>  
-         
-
-
-
-          </section>
-               
-              <section id="portfolio">
-           <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minus quibusdam eius
-                eligendi porro tempora debitis tempore eveniet officiis facilis harum, quidem, iure atque 
-                hic magnam voluptas quia, voluptatem ex. emo tempore quasi, deserunt ea quisquam sunt iste temporibus odit,
-                corrupti, voluptatem praesentium earum obcaecati ducimus voluptates cum molestias doloremque.
-           </p>
-          </section>
-          <section id="contact">
-           <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium minus quibusdam eius
-                eligendi porro tempora debitis tempore eveniet officiis facilis harum, quidem, iure atque 
-                hic magnam voluptas quia, voluptatem ex. emo tempore quasi, deserunt ea quisquam sunt iste temporibus odit,
-                corrupti, voluptatem praesentium earum obcaecati ducimus voluptates cum molestias doloremque.
-           </p>
-          </section>
-          <!-- Menu section ends -->
+            </div>
+          </div>
         </section>
-        <!-- Footer -->
-        <footer>
-           <div class="copyright">Copyright &copy; 2020 Ganeshk750</div>
-        </footer>
 
+        <section id="portfolio">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+            minus quibusdam eius eligendi porro tempora debitis tempore eveniet
+            officiis facilis harum, quidem, iure atque hic magnam voluptas quia,
+            voluptatem ex. emo tempore quasi, deserunt ea quisquam sunt iste
+            temporibus odit, corrupti, voluptatem praesentium earum obcaecati
+            ducimus voluptates cum molestias doloremque.
+          </p>
+        </section>
+        <section id="contact">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+            minus quibusdam eius eligendi porro tempora debitis tempore eveniet
+            officiis facilis harum, quidem, iure atque hic magnam voluptas quia,
+            voluptatem ex. emo tempore quasi, deserunt ea quisquam sunt iste
+            temporibus odit, corrupti, voluptatem praesentium earum obcaecati
+            ducimus voluptates cum molestias doloremque.
+          </p>
+        </section>
+        <!-- Menu section ends -->
+      </section>
+      <!-- Footer -->
+      <footer>
+        <div class="copyright">Copyright &copy; 2020 Ganeshk750</div>
+      </footer>
     </section>
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
